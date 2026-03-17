@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.sqlite3
+*.faiss
+.env
+*.db
+build/
+dist/
+*.egg-info/
