@@ -1,9 +1,8 @@
 # HermitMail 🧙‍♂️
 
-<p align="center">
-  <em>Curate like a wizard. Publish like a monk.</em><br/>
-  An <strong>offline-first, privacy-respecting newsletter generator</strong> that ingests URLs, extracts content, summarizes via a local LLM, and produces a polished static newsletter. No SaaS lock-in. No tracking pixels. No email API circus.
-</p>
+*Curate like a wizard. Publish like a monk.*
+
+An **offline-first, privacy-respecting newsletter generator** that ingests URLs, extracts content, summarizes via a local LLM, and produces a polished static newsletter. No SaaS lock-in. No tracking pixels. No email API circus.
 
 ---
 
