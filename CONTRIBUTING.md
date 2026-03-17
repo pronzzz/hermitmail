@@ -11,5 +11,6 @@ We love your input! We want to make contributing to this project as easy and tra
 5. Ensure your PR description clearly describes the problem and solution.
 
 ## Code Standards
+
 - HermitMail actively avoids SaaS logic. Any PR that adds API keys, analytics, external databases, cloud-backed LLMs, or tracking pixels **will be rejected immediately**.
 - Python modules should be purely functional where feasible. Try not to maintain complex class state unless representing a Database connection.

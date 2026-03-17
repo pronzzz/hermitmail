@@ -38,20 +38,27 @@ pip install -r requirements.txt
 HermitMail uses a multi-phase CLI for deterministic execution:
 
 1. **Ingest URLs (RSS Supported)**
+
    ```bash
    python src/main.py ingest --url https://example.com/article
    # Or from a file
    python src/main.py ingest --file list_of_links.txt
    ```
+
 2. **Scrape Raw Text**
+
    ```bash
    python src/main.py scrape
    ```
+
 3. **Summarize using Local LLM**
+
    ```bash
    python src/main.py summarize
    ```
+
 4. **Cluster Themes and Build Static Output**
+
    ```bash
    python src/main.py build
    ```

@@ -16,8 +16,10 @@ HermitMail is divided into six strictly modular phases that operate consecutivel
 6. **Newsletter Composer**: Combines clustered objects with Jinja2 to output `.html` and `.md`.
 
 ## Managing State
-Because HermitMail is completely serverless, the database is a local `hermitmail.sqlite3` file and `hermitmail.faiss` index. These are ignored by Git. 
+
+Because HermitMail is completely serverless, the database is a local `hermitmail.sqlite3` file and `hermitmail.faiss` index. These are ignored by Git.
 If an operation fails midway (e.g. Ollama times out), it is safe to re-run the `summarize` CLI command; the SQLite DB will only target rows where `summary IS NULL`.
 
 ## Adding Extractor Support
+
 If creating new scraping support in `src/scraping/extractor.py`, ensure that NO python `eval()` or `exec()` touches remote text, and that the returned dictionary always outputs plain unrendered text.
